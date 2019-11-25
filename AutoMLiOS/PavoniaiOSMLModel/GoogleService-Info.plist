@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>49408293257-foalm00dil5vffthq14honf6efuicegf.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.49408293257-foalm00dil5vffthq14honf6efuicegf</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>49408293257-qpt8lujnueskr2rkpuulab81gf8tshcn.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAIbiu0UIkvHwosZFyLIjBCp1TTC8H6Kvo</string>
+	<key>GCM_SENDER_ID</key>
+	<string>49408293257</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>za.co.dvt.AutoMLiOS</string>
+	<key>PROJECT_ID</key>
+	<string>botanychecklistdatabase</string>
+	<key>STORAGE_BUCKET</key>
+	<string>botanychecklistdatabase.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:49408293257:ios:88a407f69418749b6d4958</string>
+	<key>DATABASE_URL</key>
+	<string>https://botanychecklistdatabase.firebaseio.com</string>
+</dict>
+</plist>
