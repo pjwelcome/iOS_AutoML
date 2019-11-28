@@ -10,10 +10,10 @@
 		59CB1BBD08CF8BABAE520BC0 /* Pods_AutoMLiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC30747BCBC861599E0332FD /* Pods_AutoMLiOS.framework */; };
 		7DE4D18AFF8AFFC8F97B5AC6 /* Pods_AutoMLiOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBC395E078CD2D4742804875 /* Pods_AutoMLiOSTests.framework */; };
 		7F54565EC60079BD9B5BE580 /* Pods_AutoMLiOS_AutoMLiOSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 094C38B1A2D457E2F73AB397 /* Pods_AutoMLiOS_AutoMLiOSUITests.framework */; };
-		99C26A32238BCF9F00929B53 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 99C26A2F238BCF9F00929B53 /* manifest.json */; };
-		99C26A33238BCF9F00929B53 /* dict.txt in Resources */ = {isa = PBXBuildFile; fileRef = 99C26A30238BCF9F00929B53 /* dict.txt */; };
-		99C26A34238BCF9F00929B53 /* model.tflite in Resources */ = {isa = PBXBuildFile; fileRef = 99C26A31238BCF9F00929B53 /* model.tflite */; };
 		99C26A36238BCFDF00929B53 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 99C26A35238BCFDF00929B53 /* GoogleService-Info.plist */; };
+		99C26A42238FDEC300929B53 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 99C26A3F238FDEC300929B53 /* manifest.json */; };
+		99C26A43238FDEC300929B53 /* dict.txt in Resources */ = {isa = PBXBuildFile; fileRef = 99C26A40238FDEC300929B53 /* dict.txt */; };
+		99C26A44238FDEC300929B53 /* model.tflite in Resources */ = {isa = PBXBuildFile; fileRef = 99C26A41238FDEC300929B53 /* model.tflite */; };
 		99E735A22366EBFB00987270 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99E735A12366EBFB00987270 /* AppDelegate.swift */; };
 		99E735A42366EBFB00987270 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99E735A32366EBFB00987270 /* SceneDelegate.swift */; };
 		99E735A62366EBFB00987270 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99E735A52366EBFB00987270 /* ViewController.swift */; };
@@ -47,10 +47,10 @@
 		3376E21EE7F229518F22356A /* Pods-AutoMLiOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutoMLiOSTests.debug.xcconfig"; path = "Target Support Files/Pods-AutoMLiOSTests/Pods-AutoMLiOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5DEF5559A07847D8B1810108 /* Pods-AutoMLiOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutoMLiOS.debug.xcconfig"; path = "Target Support Files/Pods-AutoMLiOS/Pods-AutoMLiOS.debug.xcconfig"; sourceTree = "<group>"; };
 		7FCD8A0670A50C408922481B /* Pods-AutoMLiOS-AutoMLiOSUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutoMLiOS-AutoMLiOSUITests.debug.xcconfig"; path = "Target Support Files/Pods-AutoMLiOS-AutoMLiOSUITests/Pods-AutoMLiOS-AutoMLiOSUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		99C26A2F238BCF9F00929B53 /* manifest.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
-		99C26A30238BCF9F00929B53 /* dict.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dict.txt; sourceTree = "<group>"; };
-		99C26A31238BCF9F00929B53 /* model.tflite */ = {isa = PBXFileReference; lastKnownFileType = file; path = model.tflite; sourceTree = "<group>"; };
 		99C26A35238BCFDF00929B53 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		99C26A3F238FDEC300929B53 /* manifest.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		99C26A40238FDEC300929B53 /* dict.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dict.txt; sourceTree = "<group>"; };
+		99C26A41238FDEC300929B53 /* model.tflite */ = {isa = PBXFileReference; lastKnownFileType = file; path = model.tflite; sourceTree = "<group>"; };
 		99E7359E2366EBFB00987270 /* AutoMLiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoMLiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		99E735A12366EBFB00987270 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		99E735A32366EBFB00987270 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -109,15 +109,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		99C26A2E238BCF9F00929B53 /* PavoniaiOSMLModel */ = {
+		99C26A3E238FDEC300929B53 /* PavoniaiOSMLModel */ = {
 			isa = PBXGroup;
 			children = (
-				99C26A35238BCFDF00929B53 /* GoogleService-Info.plist */,
-				99C26A2F238BCF9F00929B53 /* manifest.json */,
-				99C26A30238BCF9F00929B53 /* dict.txt */,
-				99C26A31238BCF9F00929B53 /* model.tflite */,
+				99C26A3F238FDEC300929B53 /* manifest.json */,
+				99C26A40238FDEC300929B53 /* dict.txt */,
+				99C26A41238FDEC300929B53 /* model.tflite */,
 			);
-			path = PavoniaiOSMLModel;
+			name = PavoniaiOSMLModel;
+			path = Resources/PavoniaiOSMLModel;
 			sourceTree = "<group>";
 		};
 		99E735952366EBFA00987270 = {
@@ -145,7 +145,8 @@
 		99E735A02366EBFB00987270 /* AutoMLiOS */ = {
 			isa = PBXGroup;
 			children = (
-				99C26A2E238BCF9F00929B53 /* PavoniaiOSMLModel */,
+				99C26A3E238FDEC300929B53 /* PavoniaiOSMLModel */,
+				99C26A35238BCFDF00929B53 /* GoogleService-Info.plist */,
 				99E735A12366EBFB00987270 /* AppDelegate.swift */,
 				99E735A32366EBFB00987270 /* SceneDelegate.swift */,
 				99E735A52366EBFB00987270 /* ViewController.swift */,
@@ -297,13 +298,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				99C26A32238BCF9F00929B53 /* manifest.json in Resources */,
-				99C26A34238BCF9F00929B53 /* model.tflite in Resources */,
+				99C26A44238FDEC300929B53 /* model.tflite in Resources */,
 				99E735AE2366EBFE00987270 /* LaunchScreen.storyboard in Resources */,
 				99E735AB2366EBFE00987270 /* Assets.xcassets in Resources */,
+				99C26A42238FDEC300929B53 /* manifest.json in Resources */,
 				99E735A92366EBFB00987270 /* Main.storyboard in Resources */,
+				99C26A43238FDEC300929B53 /* dict.txt in Resources */,
 				99C26A36238BCFDF00929B53 /* GoogleService-Info.plist in Resources */,
-				99C26A33238BCF9F00929B53 /* dict.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
